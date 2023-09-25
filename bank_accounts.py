@@ -42,6 +42,7 @@ class BankAccount:
         except BalanceException as error:
             print(f"\nTransfer interrupted ❌ {error}")
 
+
 # Setting a new class for a different type of account but
 # inheriting BankAccount class
 
