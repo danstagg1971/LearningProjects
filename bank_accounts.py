@@ -1,4 +1,6 @@
 # Bank account transfer and deposit program
+# Explained in this YouTube video https://www.youtube.com/watch?v=PMFd95RgIwE
+
 class BalanceException(Exception):
     pass
 
