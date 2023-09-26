@@ -68,3 +68,6 @@ class SavingsAcct(InterestRewardsAcct):
             self.getBalance()
         except BalanceException as error:
             print(f"\nWithdraw interrupted: {error}")
+
+class Text:
+    pass
